@@ -1,2 +1,1 @@
-# CV
-My CV
+Here is the [netlify](https://prodemmi.netlify.app/) code repository
