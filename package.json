@@ -28,7 +28,8 @@
         "url": "https://github.com/prodemmi/CV.git"
     },
     "dependencies": {
-        "bootstrap": "5.2.3"
+        "bootstrap": "5.2.3",
+        "lodash": "^4.17.21"
     },
     "devDependencies": {
         "autoprefixer": "10.4.14",

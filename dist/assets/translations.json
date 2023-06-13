@@ -1,0 +1,260 @@
+{
+    "en": {
+        "head": {
+            "title": "Emad Malekpour | Senior Software developer"
+        },
+        "about": {
+            "name": "Emad Malekpour",
+            "address": "Iran, Isfahan",
+            "phone": "+989130243519",
+            "email": "prodemmi@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/emad-malekpour/",
+            "github": "https://github.com/prodemmi",
+            "twitter": "https://twitter.com/prodemmi",
+            "summary": "I am a Full-Stack developer with at least five years of work experience.Familiarity with troubleshooting and debugging and experienced in setup and maintenance servers and able to carry out projects in group cooperation and individually.Interested in learning and progressing in the field of programming."
+        },
+        "navbar": {
+            "about": "About",
+            "experience": "Experience",
+            "education": "Education",
+            "skills": "Skills",
+            "interests": "Interests",
+            "awards": "Awards"
+        },
+        "experiences": [
+            {
+                "title": "Senior Laravel Developer",
+                "subtitle": "<a href='https://trader4.net/' target='_blank'>Trader 4</a> | Remote | England, London",
+                "summary": "Trader 4 is a platform for traders that provides services such as training and trader panel and sales of indicators, automation, new algorithm, etc.",
+                "time": "March 2023 - Jun 2023",
+                "links": [
+                    {
+                        "title": "Trader4",
+                        "href": "https://github.com/traderfour"
+                    },
+                    {
+                        "title": "Werify",
+                        "href": "https://github.com/werify"
+                    },
+                    {
+                        "title": "Briofy",
+                        "href": "https://github.com/Briofy"
+                    },
+                    {
+                        "title": "Dalan Capital",
+                        "href": "https://github.com/DalanCapital"
+                    }
+                ],
+                "labels": [
+                    {
+                        "icon": "https://bemantech.com/site/theme6/content2/technics/images/laravel.png",
+                        "title": "Laravel",
+                        "color": "#1C315E"
+                    },
+                    {
+                        "icon": "https://leadsbridge.com/wp-content/themes/leadsbridge/img/integration-lg-logos/logo396.png",
+                        "title": "MySql",
+                        "color": "#B99B6B"
+                    },
+                    {
+                        "icon": null,
+                        "title": "Microservice",
+                        "color": null
+                    }
+                ]
+            },
+            {
+                "title": "Tech Lead, Senior MERN Developer",
+                "subtitle": "<a href='https://fotomi.app/' target='_blank'>Fotomi</a> | Remote | Iran, Isfahan",
+                "summary": "Fotomi is a platform to improve photo quality by using AI.",
+                "time": "October 2023 - March 2023",
+                "labels": [
+                    {
+                        "icon": "https://camo.githubusercontent.com/835c79e3d9ddc9ff59dfa31fe5868d359a091950992ed736422413d214ec5981/68747470733a2f2f696d672e69636f6e73382e636f6d2f65787465726e616c2d74616c2d72657669766f2d736861646f772d74616c2d72657669766f2f3235362f65787465726e616c2d6d6f6e676f64622d612d63726f73732d706c6174666f726d2d646f63756d656e742d6f7269656e7465642d64617461626173652d70726f6772616d2d6c6f676f2d736861646f772d74616c2d72657669766f2e706e67",
+                        "title": "MongoDB",
+                        "color": "#83b72b"
+                    },
+                    {
+                        "icon": "https://www.frontendmag.com/wp-content/uploads/2023/02/express-logo.png",
+                        "title": "ExpressJs",
+                        "color": "#5D9C59"
+                    },
+                    {
+                        "icon": "https://www.shareicon.net/data/256x256/2016/07/08/117367_logo_512x512.png",
+                        "title": "ReactJs",
+                        "color": "#3b4076"
+                    },
+
+                    {
+                        "icon": "https://ph-files.imgix.net/2e26f07f-e5e5-411e-ba1e-e92c4083bd92.png?auto=format&fit=crop",
+                        "title": "Tailwind",
+                        "color": "#298dc8"
+                    },
+                    {
+                        "icon": "https://cdn-icons-png.flaticon.com/256/5968/5968322.png",
+                        "title": "NodeJs",
+                        "color": "#ffb187"
+                    },
+                    {
+                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-python-3628999-3030224.png?f=webp",
+                        "title": "Python",
+                        "color": "#27374D"
+                    },
+                    {
+                        "icon": "https://static-00.iconduck.com/assets.00/docker-icon-256x256-jzvgqn21.png",
+                        "title": "Docker",
+                        "color": "#3795BD"
+                    },
+                    {
+                        "icon": null,
+                        "title": "Microservice",
+                        "color": null
+                    }
+                ]
+            },
+            {
+                "title": "Tech Lead, Full-Stack Developer",
+                "subtitle": "<a href='https://axsoot.com/' target='_blank'>Axsoot</a> | Remote | Iran, Isfahan",
+                "summary": "Axsoot is an internet service that allows you to print your photos on various objects.",
+                "time": "October 2018 - March 2023",
+                "labels": [
+                    {
+                        "icon": "https://bemantech.com/site/theme6/content2/technics/images/laravel.png",
+                        "title": "Laravel",
+                        "color": "#1C315E"
+                    },
+                    {
+                        "icon": "https://leadsbridge.com/wp-content/themes/leadsbridge/img/integration-lg-logos/logo396.png",
+                        "title": "MySql",
+                        "color": "#B99B6B"
+                    },
+                    {
+                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-angularjs-1-1175270.png",
+                        "title": "AngularJs",
+                        "color": "#FCE22A"
+                    },
+                    {
+                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png",
+                        "title": "VueJs",
+                        "color": "#31868b"
+                    }
+                ],
+                "links": [
+                    {
+                        "title": "Mobile Application",
+                        "href": "https://cafebazaar.ir/app/com.axsoot"
+                    }
+                ]
+            },
+            {
+                "title": "Full-Stack Developer",
+                "subtitle": "<a href='https://sadafcarton.ir/' target='_blank'>Sadaf Carton</a> | Remote | Iran, Isfahan",
+                "summary": "Sadaf Carton is a manufacturer and distributor of cardboard and paper.",
+                "time": "October 2019 - October 2019",
+                "labels": [
+                    {
+                        "icon": "https://bemantech.com/site/theme6/content2/technics/images/laravel.png",
+                        "title": "Laravel",
+                        "color": "#1C315E"
+                    },
+                    {
+                        "icon": "https://leadsbridge.com/wp-content/themes/leadsbridge/img/integration-lg-logos/logo396.png",
+                        "title": "MySql",
+                        "color": "#B99B6B"
+                    },
+                    {
+                        "icon": "https://www.w3.org/html/logo/downloads/HTML5_Badge_256.png",
+                        "title": "HTML",
+                        "color": "#F29727"
+                    },
+                    {
+                        "icon": "https://cdn.icon-icons.com/icons2/1826/PNG/512/4202020css3htmllogosocialsocialmedia-115668_115633.png",
+                        "title": "CSS",
+                        "color": "#2E8A99"
+                    }
+                ]
+            },
+            {
+                "title": "Flutter Developer",
+                "subtitle": "ESTO Group | In-person | Iran, Isfahan",
+                "summary": "Making mobile applications using Flutter.",
+                "time": "October 2018 - March 2019",
+                "labels": [
+                    {
+                        "icon": "https://play-lh.googleusercontent.com/lKqgoL_UJvmytVdTHc5bkVOUTrbUTIOhTKBsWDt9K5gWs-PKXPFz3R_os93FShkb3w",
+                        "title": "Flutter",
+                        "color": "#19A7CE"
+                    },
+                    {
+                        "icon": "https://mobx.js.org/assets/mobx.png",
+                        "title": "MobX",
+                        "color": "#e9bf65"
+                    },
+                    {
+                        "icon": "https://avatars.githubusercontent.com/u/55202745?s=200&v=4",
+                        "title": "HiveDB",
+                        "color": "#517eb8"
+                    }
+                ],
+                "links": [
+                    {
+                        "title": "Plantaa",
+                        "href": "https://cafebazaar.ir/app/com.plantaa"
+                    },
+                    {
+                        "title": "Zotch",
+                        "href": "https://cafebazaar.ir/app/com.zotch"
+                    },
+                    {
+                        "title": "Payaa",
+                        "href": "https://cafebazaar.ir/app/com.payaa"
+                    }
+                ]
+            }
+        ],
+        "education": {
+            "university": "Shahid Ashrafi Isfahani",
+            "description": "Computer Engineer - Software Engineer",
+            "time": "2018 - Current"
+        },
+        "skills": {
+            "icons": [
+                "https://bemantech.com/site/theme6/content2/technics/images/laravel.png",
+                "https://cdn.iconscout.com/icon/free/png-256/free-django-3628142-3030962.png",
+                "https://cdn-icons-png.flaticon.com/256/5968/5968322.png",
+                "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png",
+                "https://www.shareicon.net/data/256x256/2016/07/08/117367_logo_512x512.png",
+                "https://play-lh.googleusercontent.com/lKqgoL_UJvmytVdTHc5bkVOUTrbUTIOhTKBsWDt9K5gWs-PKXPFz3R_os93FShkb3w",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/256px-Electron_Software_Framework_Logo.svg.png?20190331235051",
+                "https://hashin.in/hash/_layout/images/expertise/qt.png",
+                "https://cdn.iconscout.com/icon/free/png-256/free-git-225996.png?f=webp",
+                "https://cdn.iconscout.com/icon/free/png-256/free-linux-3628892-3030032.png?f=webp",
+                "https://www.jetbrains.com/go/guide/assets/go-f24b0b67.png",
+                "https://static-00.iconduck.com/assets.00/docker-icon-256x256-jzvgqn21.png"
+            ]
+        }
+    },
+    "fa": {
+        "head": {
+            "title": "عماد ملک پور | توسعه دهنده ارشد نرم افزار"
+        },
+        "about": {
+            "name": "عماد ملک پور",
+            "address": "ایران، اصفهان",
+            "phone": "+989130243519",
+            "email": "prodemmi@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/emad-malekpour/",
+            "github": "https://github.com/prodemmi",
+            "twitter": "https://twitter.com/prodemmi",
+            "summary": "توسعه دهنده فول استک با حداقل پنج سال سابقه کار. آشنا به عیب یابی و رفع اشکال و با تجربه در راه اندازی و سرورهای تعمیر و نگهداری و قادر به انجام پروژه ها به صورت گروهی و انفرادی. علاقه مند به یادگیری و پیشرفت در زمینه برنامه نویسی."
+        },
+        "navbar": {
+            "about": "درباره من",
+            "experience": "تجربیات",
+            "education": "تحصیلات",
+            "skills": "مهارت ها",
+            "interests": "علاقه مندی ها",
+            "awards": "دستاورد ها"
+        }
+    }
+}

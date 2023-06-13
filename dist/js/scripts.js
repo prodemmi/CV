@@ -1,6 +1,6 @@
 /*!
-* Start Bootstrap - Emad Malekpour CV v1.0.0 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2023 Start Bootstrap
+* Start Bootstrap - Emad Malekpour CV v1.0.0 (undefined)
+* Copyright 2013-2023 Prodemmi
 * Licensed under MIT (https://github.com/StartBootstrap/prodemmi-cv/blob/master/LICENSE)
 */
 window.addEventListener('DOMContentLoaded', event => {
