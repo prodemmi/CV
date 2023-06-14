@@ -1,0 +1,39 @@
+name: Build and Release PDF
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build_and_release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build PDF
+        run: npm run build
+
+      - name: Create release
+        uses: elgohr/Github-Release-Action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          title: CV PDF
+          draft: false
+          prerelease: false
+
+      - name: Upload PDF to release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf
+          asset_name: EmadMalekpour-SeniorDeveloper_EN.pdf
+          asset_content_type: application/pdf
