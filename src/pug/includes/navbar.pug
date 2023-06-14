@@ -1,0 +1,20 @@
+nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top.d-print-none
+    a.navbar-brand.js-scroll-trigger(href='#page-top')
+        span.d-none.d-lg-block
+            img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+    button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+    #navbarResponsive.collapse.navbar-collapse
+        ul.navbar-nav
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#about-section') #{t("navbar.about")}
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#experience-section') #{t("navbar.experience")}
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#education-section') #{t("navbar.education")}
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#skills-section') #{t("navbar.skills")}
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#interests-section') #{t("navbar.interests")}
+            //- li.nav-item
+            //-     a.nav-link.js-scroll-trigger(href='#awards-section') #{t("navbar.awards")}

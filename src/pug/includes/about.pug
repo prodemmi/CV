@@ -1,0 +1,14 @@
+section#about-section
+    .content
+        h1.header #{t("about.name")}
+        .subheading
+            | #{t("about.address")}  ·  #{t("about.phone")}  ·  
+            a(href="mailto:" + t("about.email")) #{t("about.email")}
+        p.lead #{t("about.summary")}
+        .social-icons
+            a.social-icon(target="_blank" href=t("about.linkedin") style={background: "#0067be"})
+                i.fab.fa-linkedin-in
+            a.social-icon(target="_blank" href=t("about.github") style={background: "black"})
+                i.fab.fa-github
+            a.social-icon(target="_blank" href=t("about.twitter") style={background: "#00a3ee"})
+                i.fab.fa-twitter

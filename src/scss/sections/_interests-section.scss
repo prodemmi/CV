@@ -1,0 +1,23 @@
+#interests-section {
+    .header {
+        @extend .mb-2;
+    }
+
+    .lead {
+        @extend .m-5;
+        font-size: 1.15rem;
+        font-weight: 400;
+    }
+}
+
+@media print {
+    #interests-section {
+        .header {
+            font-size: 4.0rem;
+        }
+
+        .lead {
+            font-size: 2.0rem;
+        }
+    }
+}

@@ -20,149 +20,37 @@ html(lang=lang dir=dir)
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
-    body#page-top
-
+    body
         // Navigation
-        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
-            a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
-            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
-                span.navbar-toggler-icon
-            #navbarResponsive.collapse.navbar-collapse
-                ul.navbar-nav
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#about') #{t("navbar.about")}
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#experience') #{t("navbar.experience")}
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') #{t("navbar.education")}
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#skills') #{t("navbar.skills")}
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') #{t("navbar.interests")}
-                    //- li.nav-item
-                    //-     a.nav-link.js-scroll-trigger(href='#awards') #{t("navbar.awards")}
+        include includes/navbar.pug
 
         // Page Content
-        .container-fluid.p-0
-
+        .container-fluid
             // About
-            section#about.resume-section
-                .resume-section-content
-                    h1.mb-0 #{t("about.name")}
-                    .subheading.mb-5
-                        | #{t("about.address")}  ·  #{t("about.phone")}  ·  
-                        a(href="mailto:" + t("about.email")) #{t("about.email")}
-                    p.lead.mb-5 #{t("about.summary")}
-                    .social-icons
-                        a.social-icon(target="_blank" href=t("about.linkedin") style={background: "#0067be"})
-                            i.fab.fa-linkedin-in
-                        a.social-icon(target="_blank" href=t("about.github") style={background: "black"})
-                            i.fab.fa-github
-                        a.social-icon(target="_blank" href=t("about.twitter") style={background: "#00a3ee"})
-                            i.fab.fa-twitter
+            include includes/about.pug
 
-            hr.m-0
+            div.page-break page-break
 
             // Experience
-            section#experience.resume-section
-               .resume-section-content
-                    h2.mb-5 !{t("navbar.experience")}
+            include includes/experiences.pug
 
-                    each experience in t("experiences")
-                        .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                            .flex-grow-1
-                                h3.mb-0 #{experience.title}
-                                .subheading.mb-2 !{experience.subtitle}
-
-                                p !{experience.summary}
-
-                                if experience.links
-                                    div.mb-2
-                                        span Links:
-                                        each link, index in experience.links
-                                            a.text-primary(target="_blank" href=link.href) !{link.title}
-                                            if index < experience.links.length - 1
-                                                span ,
-                                if experience.labels
-                                    div.mb-2.d-flex.flex-wrap.justify-content-start.align-items-center
-                                        span.mx-2 Technologies used:
-                                        each label, index in experience.labels
-                                            span.label(style={background: label.color ? label.color : "#000"})
-                                                if label.icon
-                                                    img(src=label.icon alt="" width=18 height=18)
-                                                span #{label.title}
-
-                            .flex-shrink-0
-                                span.text-primary #{experience.time}
-            hr.m-0
+            div.page-break page-break
 
             // Education
-            section#education.resume-section
-                .resume-section-content
-                    h2.mb-5 Education
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 #{t("education.university")}
-                            div #{t("education.description")}
-                        .flex-shrink-0
-                            span.text-primary #{t("education.time")}
-
-            hr.m-0
-
+            include includes/education.pug
+            
             // Skills
-            section#skills.resume-section
-                .resume-section-content
-                    h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        each skillIcon in t("skills.icons") || []
-                            li.list-inline-item
-                                img(src=skillIcon alt="" width=48 height=48)
+            include includes/skills.pug
 
-                    .subheading.mb-3 Workflow
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Mobile-First, Responsive Design
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Browser Testing & Debugging
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Functional Teams
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Agile Development & Scrum
-
-            hr.m-0
+            div.page-break page-break
 
             // Interests
-            section#interests.resume-section
-                .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+            include includes/interests.pug
 
-            hr.m-0
+            //- div.page-break page-break
 
-            // Awards
-            //- section#awards.resume-section
-            //-     .resume-section-content
-            //-         h2.mb-5 Awards & Certifications
-            //-         ul.fa-ul.mb-0
-            //-             li
-            //-                 span.fa-li
-            //-                     i.fas.fa-trophy.text-warning
-            //-                 | Flutter Teacher at ESTO Group
+            //- // Avards
+            //- include includes/awards.pug
 
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
         script(src='js/scripts.js')

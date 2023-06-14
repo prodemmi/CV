@@ -213,12 +213,25 @@
             }
         ],
         "education": {
+            "university_title": "University",
             "university": "Shahid Ashrafi Isfahani",
             "description": "Computer Engineer - Software Engineer",
-            "time": "2018 - Current"
+            "time": "2018 - Current",
+            "languages_title": "Languages",
+            "languages": [
+                {
+                    "title" : "English",
+                    "summary" : "8/10"
+                },
+                {
+                    "title" : "Persian",
+                    "summary" : "8/10"
+                }
+            ]
         },
         "skills": {
-            "icons": [
+            "subheading" : "Programming Languages & Tools",
+            "skills": [
                 "https://bemantech.com/site/theme6/content2/technics/images/laravel.png",
                 "https://cdn.iconscout.com/icon/free/png-256/free-django-3628142-3030962.png",
                 "https://cdn-icons-png.flaticon.com/256/5968/5968322.png",
@@ -231,6 +244,20 @@
                 "https://cdn.iconscout.com/icon/free/png-256/free-linux-3628892-3030032.png?f=webp",
                 "https://www.jetbrains.com/go/guide/assets/go-f24b0b67.png",
                 "https://static-00.iconduck.com/assets.00/docker-icon-256x256-jzvgqn21.png"
+            ],
+            "focuses": "Core skills",
+            "focused_skills": [
+                "https://bemantech.com/site/theme6/content2/technics/images/laravel.png",
+                "https://www.jetbrains.com/go/guide/assets/go-f24b0b67.png",
+                "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png"
+            ],
+            "items" :[
+                "Energetic and open to challenges",
+                "Solve Problems",
+                "Agile Development , Scrum & kanban",
+                "OOP / DRY / SOLID / Clean Code / Design Patterns",
+                "Teamwork",
+                "Testing Code"
             ]
         }
     },

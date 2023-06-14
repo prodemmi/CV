@@ -1,0 +1,19 @@
+section#skills-section
+    .content
+        h2.header #{t("navbar.skills")}
+        div.lead
+            div.subheading #{t("skills.subheading")}
+            div.icons
+                each skill in t("skills.skills") || []
+                    img.icon(src=skill alt="" width=52)
+                    
+            div.subheading #{t("skills.focuses")}
+            div.icons
+                each focusedSkill in t("skills.focused_skills") || []
+                    img.icon(src=focusedSkill alt="" width=52)
+
+            ul.items
+                each item in t("skills.items") || []
+                    li
+                        i.fas.fa-check
+                        span #{item}

@@ -1,0 +1,101 @@
+#experience-section {
+    min-height: 100vh;
+    
+    .header {
+        @extend .mb-2;
+    }
+
+    .experience {
+        @extend .d-flex;
+        @extend .flex-column;
+        @extend .flex-md-row;
+        @extend .justify-content-between;
+        @extend .mb-4;
+
+        .header {
+            @extend .m-0;
+        }
+
+        .subheading {
+            font-family: $headings-font-family;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 1.4rem;
+        }
+
+        .lead {
+            font-size: 1.15rem;
+            font-weight: 400;
+        }
+
+        .main-section {
+            @extend .flex-grow-1;
+        }
+
+        .time-section {
+            @extend .flex-shrink-0;
+        }
+
+        .links {
+            @extend .mb-2;
+        }
+
+        .labels {
+            @extend .my-4;
+            @extend .d-flex;
+            @extend .flex-wrap;
+            @extend .justify-content-start;
+            @extend .align-items-center;
+
+            .label {
+                @extend .shadow;
+                @extend .user-select-none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: .65rem;
+                font-weight: bold;
+                color: #fff;
+                padding: 2px 4px;
+                margin: 3px;
+                text-align: center;
+                min-width: 80px;
+                max-width: max-content;
+                height: 26px;
+                border-radius: 6px;
+
+                >img {
+                    margin: .2rem;
+                }
+            }
+        }
+
+        .time {
+            @extend .text-primary;
+        }
+    }
+
+    .container {
+        @extend .p-5;
+    }
+}
+
+@media print {
+    #experience-section {
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 100%;
+            padding: 0;
+        }
+
+        .experience {
+            width: 50%;
+            padding: 1.0rem;
+
+            .lead {
+                font-size: 1.4rem !important;
+            }
+        }
+    }
+}

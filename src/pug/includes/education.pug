@@ -1,0 +1,18 @@
+section#education-section
+    .content
+        div.w-50
+            h2.header #{t("education.university_title")}
+            .lead
+                .main-section
+                    h3 #{t("education.university")}
+                    div.description #{t("education.description")}
+                .time-section
+                    span #{t("education.time")}
+
+        div.w-50
+            h2.header #{t("education.languages_title")}
+            .lead
+                each language in t("education.languages") || []
+                    div 
+                        h3 #{language.title}
+                        span #{language.summary}

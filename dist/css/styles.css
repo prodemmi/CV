@@ -7025,7 +7025,7 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex {
+.d-flex, #skills-section .icons, #education-section .content, #experience-section .experience .labels, #experience-section .experience {
   display: flex !important;
 }
 
@@ -7037,7 +7037,7 @@ textarea.form-control-lg {
   display: none !important;
 }
 
-.shadow, .label {
+.shadow, #experience-section .experience .labels .label {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -7330,7 +7330,7 @@ textarea.form-control-lg {
   flex-direction: row !important;
 }
 
-.flex-column {
+.flex-column, #experience-section .experience {
   flex-direction: column !important;
 }
 
@@ -7346,11 +7346,11 @@ textarea.form-control-lg {
   flex-grow: 0 !important;
 }
 
-.flex-grow-1 {
+.flex-grow-1, #experience-section .experience .main-section {
   flex-grow: 1 !important;
 }
 
-.flex-shrink-0 {
+.flex-shrink-0, #experience-section .experience .time-section {
   flex-shrink: 0 !important;
 }
 
@@ -7358,7 +7358,7 @@ textarea.form-control-lg {
   flex-shrink: 1 !important;
 }
 
-.flex-wrap {
+.flex-wrap, #skills-section .icons, #experience-section .experience .labels {
   flex-wrap: wrap !important;
 }
 
@@ -7370,7 +7370,7 @@ textarea.form-control-lg {
   flex-wrap: wrap-reverse !important;
 }
 
-.justify-content-start {
+.justify-content-start, #experience-section .experience .labels {
   justify-content: flex-start !important;
 }
 
@@ -7382,7 +7382,7 @@ textarea.form-control-lg {
   justify-content: center !important;
 }
 
-.justify-content-between {
+.justify-content-between, #experience-section .experience {
   justify-content: space-between !important;
 }
 
@@ -7402,7 +7402,7 @@ textarea.form-control-lg {
   align-items: flex-end !important;
 }
 
-.align-items-center {
+.align-items-center, #experience-section .experience .labels {
   align-items: center !important;
 }
 
@@ -7494,7 +7494,7 @@ textarea.form-control-lg {
   order: 6 !important;
 }
 
-.m-0 {
+.m-0, #education-section .header, #experience-section .experience .header, hr.divider {
   margin: 0 !important;
 }
 
@@ -7514,7 +7514,7 @@ textarea.form-control-lg {
   margin: 1.5rem !important;
 }
 
-.m-5 {
+.m-5, #interests-section .lead, #skills-section .lead {
   margin: 3rem !important;
 }
 
@@ -7532,7 +7532,7 @@ textarea.form-control-lg {
   margin-left: 0.25rem !important;
 }
 
-.mx-2 {
+.mx-2, #skills-section .icons .icon {
   margin-right: 0.5rem !important;
   margin-left: 0.5rem !important;
 }
@@ -7577,7 +7577,7 @@ textarea.form-control-lg {
   margin-bottom: 1rem !important;
 }
 
-.my-4 {
+.my-4, #experience-section .experience .labels {
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important;
 }
@@ -7612,7 +7612,7 @@ textarea.form-control-lg {
   margin-top: 1.5rem !important;
 }
 
-.mt-5 {
+.mt-5, #skills-section .items {
   margin-top: 3rem !important;
 }
 
@@ -7648,7 +7648,7 @@ textarea.form-control-lg {
   margin-right: auto !important;
 }
 
-.mb-0 {
+.mb-0, #education-section .header, #about-section .header {
   margin-bottom: 0 !important;
 }
 
@@ -7656,7 +7656,7 @@ textarea.form-control-lg {
   margin-bottom: 0.25rem !important;
 }
 
-.mb-2 {
+.mb-2, #interests-section .header, #skills-section .subheading, #skills-section .header, #experience-section .experience .links, #experience-section .header {
   margin-bottom: 0.5rem !important;
 }
 
@@ -7664,7 +7664,7 @@ textarea.form-control-lg {
   margin-bottom: 1rem !important;
 }
 
-.mb-4 {
+.mb-4, #skills-section .icons, #experience-section .experience {
   margin-bottom: 1.5rem !important;
 }
 
@@ -7724,7 +7724,7 @@ textarea.form-control-lg {
   padding: 1.5rem !important;
 }
 
-.p-5 {
+.p-5, #education-section .lead, #experience-section .container {
   padding: 3rem !important;
 }
 
@@ -7748,7 +7748,7 @@ textarea.form-control-lg {
   padding-left: 1rem !important;
 }
 
-.px-4 {
+.px-4, section {
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
 }
@@ -7783,7 +7783,7 @@ textarea.form-control-lg {
   padding-bottom: 1.5rem !important;
 }
 
-.py-5 {
+.py-5, section {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
@@ -8035,7 +8035,7 @@ textarea.form-control-lg {
 }
 
 /* rtl:end:remove */
-.text-primary {
+.text-primary, #experience-section .experience .time {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
@@ -8222,7 +8222,7 @@ textarea.form-control-lg {
           user-select: auto !important;
 }
 
-.user-select-none, .label {
+.user-select-none, #experience-section .experience .labels .label {
   -webkit-user-select: none !important;
      -moz-user-select: none !important;
           user-select: none !important;
@@ -8839,7 +8839,7 @@ textarea.form-control-lg {
   .flex-md-fill {
     flex: 1 1 auto !important;
   }
-  .flex-md-row {
+  .flex-md-row, #experience-section .experience {
     flex-direction: row !important;
   }
   .flex-md-column {
@@ -10822,7 +10822,7 @@ textarea.form-control-lg {
   .d-print-inline-flex {
     display: inline-flex !important;
   }
-  .d-print-none {
+  .d-print-none, hr.divider {
     display: none !important;
   }
 }
@@ -10855,18 +10855,37 @@ h1, .h1 {
   line-height: 1;
 }
 
-p.lead {
-  font-size: 1.15rem;
-  font-weight: 400;
+ul,
+ol {
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.subheading {
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.5rem;
+.page-break {
+  page-break-inside: avoid !important;
+  opacity: 0;
 }
 
+@media (min-width: 960px) {
+  .content {
+    padding: 2rem !important;
+  }
+}
+@media print {
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  section {
+    padding: 0 !important;
+  }
+  .page-break {
+    page-break-inside: avoid !important;
+    width: 32px;
+    height: 32px;
+  }
+}
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -10921,7 +10940,31 @@ p.lead {
     display: block;
   }
 }
-.social-icons .social-icon {
+.dev-icons {
+  font-size: 3rem;
+}
+
+#about-section {
+  display: flex;
+  align-items: center;
+  max-width: 70rem;
+  min-height: 100vh;
+}
+#about-section .content {
+  width: 100%;
+}
+#about-section .subheading {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+#about-section .lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+#about-section .social-icons {
+  margin-top: 4rem;
+}
+#about-section .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -10933,60 +10976,123 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 1.5rem;
 }
-.social-icons .social-icon:last-child {
+#about-section .social-icons .social-icon:last-child {
   margin-right: 0;
 }
-.social-icons .social-icon:hover {
+#about-section .social-icons .social-icon:hover {
   background-color: #00c59a;
 }
 
-.dev-icons {
-  font-size: 3rem;
+@media (min-width: 960px) {
+  #about-section {
+    margin: auto !important;
+  }
 }
-
-.label {
+@media print {
+  #about-section {
+    max-width: 90%;
+  }
+  #about-section .header {
+    font-size: 8rem;
+  }
+  #about-section .subheading {
+    font-size: 3.2rem;
+  }
+  #about-section .lead {
+    font-size: 2rem;
+  }
+}
+#experience-section {
+  min-height: 100vh;
+}
+#experience-section .experience .subheading {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+#experience-section .experience .lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+#experience-section .experience .labels .label {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 0.65rem;
   font-weight: bold;
   color: #fff;
-  padding: 2px;
-  margin: 4px;
+  padding: 2px 4px;
+  margin: 3px;
   text-align: center;
   min-width: 80px;
   max-width: -moz-max-content;
   max-width: max-content;
-  height: 24px;
+  height: 26px;
   border-radius: 6px;
 }
-.label > * {
-  margin: 0 2px;
+#experience-section .experience .labels .label > img {
+  margin: 0.2rem;
 }
-
-section.resume-section {
-  display: flex;
-  align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  max-width: 75rem;
-}
-section.resume-section .resume-section-content {
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
+@media print {
+  #experience-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 0;
+  }
+  #experience-section .experience {
+    width: 50%;
+    padding: 1rem;
+  }
+  #experience-section .experience .lead {
+    font-size: 1.4rem !important;
   }
 }
-@media (min-width: 992px) {
-  section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+#education-section {
+  min-height: 20vh;
+}
+#education-section .description {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+@media (min-width: 960px) {
+  #education-section .lead {
+    padding: 2rem !important;
+  }
+}
+@media print {
+  #education-section .header {
+    font-size: 4rem;
+  }
+  #education-section .lead {
+    font-size: 2rem;
+  }
+}
+#skills-section {
+  min-height: 80vh;
+}
+@media print {
+  #skills-section .header {
+    font-size: 4rem;
+  }
+  #skills-section .subheading, #skills-section .lead {
+    font-size: 2.2rem;
+  }
+  #skills-section .items {
+    font-size: 2rem;
+  }
+}
+#interests-section .lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+@media print {
+  #interests-section .header {
+    font-size: 4rem;
+  }
+  #interests-section .lead {
+    font-size: 2rem;
   }
 }

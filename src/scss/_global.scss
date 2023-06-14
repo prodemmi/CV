@@ -27,14 +27,47 @@ h1 {
     line-height: 1;
 }
 
-p.lead {
-    font-size: 1.15rem;
-    font-weight: 400;
+hr.divider {
+    @extend .m-0;
+    @extend .d-print-none;
 }
 
-.subheading {
-    font-family: $headings-font-family;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 1.5rem;
+ul,
+ol {
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+section {
+    @extend .px-4;
+    @extend .py-5;
+}
+
+.page-break {
+    page-break-inside: avoid !important;
+    opacity: 0;
+}
+
+@media (min-width: $layout-breakpoint-small) {
+    .content {
+        padding: 2rem !important;
+    }
+}
+
+@media print {
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    section {
+        padding: 0 !important;
+    }
+
+    .page-break {
+        page-break-inside: avoid !important;
+        width: 32px;
+        height: 32px;
+    }
 }

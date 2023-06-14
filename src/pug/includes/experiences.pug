@@ -1,0 +1,32 @@
+section#experience-section
+    .content
+        h2.header !{t("navbar.experience")}
+        ul.container
+            each experience, index in t("experiences")
+                li.experience
+                    .main-section
+                        h3.header #{experience.title}
+                        .subheading !{experience.subtitle}
+
+                        p.lead !{experience.summary}
+
+                        if experience.links
+                            div.links
+                                span Links:
+                                each link, index in experience.links
+                                    a.text-primary(target="_blank" href=link.href) !{link.title}
+                                    if index < experience.links.length - 1
+                                        span ,
+                        if experience.labels
+                            div.labels
+                                each label, index in experience.labels
+                                    span.label(style={background: label.color ? label.color : "#000"})
+                                        if label.icon
+                                            img(src=label.icon alt="" width=18 height=18)
+                                        span #{label.title}
+
+                    .time-section
+                        span.time #{experience.time}
+
+                if index <  t("experiences").length - 1
+                    hr.mb-4.d-print-none
