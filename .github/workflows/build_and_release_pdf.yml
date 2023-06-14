@@ -28,6 +28,7 @@ jobs:
           draft: false
           prerelease: false
           files_glob: '*'
+          tag_name: v1.0.0
 
       - name: Upload PDF to release
         uses: actions/upload-artifact@v3
