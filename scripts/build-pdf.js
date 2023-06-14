@@ -6,7 +6,7 @@ const puppeteer = require('puppeteer');
 
 (async () => {
   const htmlFile = path.resolve(__dirname + '/../dist/index.html');
-  const filename = path.resolve(__dirname + '/../dist/assets/pdf/EmadMalekpour-SeniorDeveloper.pdf');
+  const filename = path.resolve(__dirname + '/../dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf');
   fs.mkdirSync(path.dirname(filename), { recursive: true });
 
   const browser = await puppeteer.launch({
