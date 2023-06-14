@@ -22,14 +22,14 @@ jobs:
       - name: Create release
         uses: elgohr/Github-Release-Action@v4
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         with:
           title: CV PDF
 
       - name: Upload PDF to release
         uses: actions/upload-release-asset@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf
