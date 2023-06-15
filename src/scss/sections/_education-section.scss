@@ -20,6 +20,9 @@
 
     .content {
         @extend .d-flex;
+        .container {
+            @extend .w-50;
+        }
     }
 }
 
@@ -27,6 +30,24 @@
     #education-section {
         .lead {
             padding: 2.0rem !important;
+        }
+    }
+}
+
+@media (max-width: $layout-breakpoint-small) {
+    #education-section {
+        padding: 1.0rem !important;
+        .content {
+            flex-direction: column !important;
+            .container {
+                width: 100% !important;
+            }
+        }
+
+        .lead {
+            padding: 1.0rem !important;
+            display: flex !important;
+            justify-content: space-around !important;
         }
     }
 }

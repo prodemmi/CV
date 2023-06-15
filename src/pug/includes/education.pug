@@ -1,6 +1,6 @@
 section#education-section
     .content
-        div.w-50
+        div.container
             h2.header #{t("education.university_title")}
             .lead
                 .main-section
@@ -9,10 +9,10 @@ section#education-section
                 .time-section
                     span #{t("education.time")}
 
-        div.w-50
+        div.container
             h2.header #{t("education.languages_title")}
             .lead
                 each language in t("education.languages") || []
-                    div 
+                    div.mb-2 
                         h3 #{language.title}
                         span #{language.summary}

@@ -49,12 +49,6 @@ section {
     opacity: 0;
 }
 
-@media (min-width: $layout-breakpoint-small) {
-    .content {
-        padding: 2rem !important;
-    }
-}
-
 @media print {
     body {
         margin: 0 !important;
