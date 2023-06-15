@@ -1,0 +1,10 @@
+.footer {
+    @extend .d-none;
+    @extend .d-print-block;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
