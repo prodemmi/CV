@@ -1,9 +1,12 @@
 name: Build and Release PDF
 
 on:
-  pull_request:
+  push:
     branches:
       - main
+  create:
+    tags:
+      - v*
 
 jobs:
   build_and_release:
@@ -16,6 +19,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Get version from package.json
+        id: get_version
+        run: echo "::set-output name=version::$(node -p "require('./package.json').version")"
+
       - name: Build Assets
         run: npm run build
 
@@ -26,12 +33,12 @@ jobs:
         id: create_release
         uses: ncipollo/release-action@v1.12.0
         with:
-          artifacts: dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf
+          artifacts: "dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf"
           token: ${{ secrets.PAT_TOKEN }}
           draft: false
           prerelease: false
           files_glob: '*'
-          tag_name: v1.0.0
+          tag: v${{ steps.get_version.outputs.version }}
 
       - name: Upload PDF to release
         uses: actions/upload-artifact@v3
