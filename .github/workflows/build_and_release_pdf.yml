@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-  create:
-    tags:
-      - v*
 
 jobs:
   build_and_release:
