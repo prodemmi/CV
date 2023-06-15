@@ -22,9 +22,12 @@ jobs:
       - name: Get version from package.json
         id: get_version
         run: echo "::set-output name=version::$(node -p "require('./package.json').version")"
-        
-      - name: Build PDF
+
+      - name: Build Assets
         run: npm run build
+
+      - name: Build PDF
+        run: npm run print
 
       - name: Create release
         id: create_release
