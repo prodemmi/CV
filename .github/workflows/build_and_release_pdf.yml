@@ -4,6 +4,9 @@ on:
   pull_request:
     branches:
       - main
+  create:
+    tags:
+      - v*
 
 jobs:
   build_and_release:
@@ -23,12 +26,12 @@ jobs:
         id: create_release
         uses: ncipollo/release-action@v1.12.0
         with:
-          artifacts: dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf
+          artifacts: "dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf"
           token: ${{ secrets.PAT_TOKEN }}
           draft: false
           prerelease: false
           files_glob: '*'
-          tag_name: v1.0.0
+          tag: v1.0.0
 
       - name: Upload PDF to release
         uses: actions/upload-artifact@v3
