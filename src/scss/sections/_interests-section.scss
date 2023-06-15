@@ -4,9 +4,18 @@
     }
 
     .lead {
-        @extend .m-5;
+        @extend .p-5;
         font-size: 1.15rem;
         font-weight: 400;
+    }
+}
+
+@media (max-width: $layout-breakpoint-small) {
+    #interests-section {
+        padding: 1.0rem !important;
+        .lead {
+            padding: 1.0rem !important;
+        }
     }
 }
 

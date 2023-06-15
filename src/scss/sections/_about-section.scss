@@ -54,6 +54,17 @@
     }
 }
 
+@media (max-width: $layout-breakpoint-small) {
+    #about-section {
+        padding: 1.0rem !important;
+        width: 100% !important;
+
+        .subheading {
+            font-size: 1.0rem;
+        }
+    }
+}
+
 @media print {
     #about-section {
         max-width: 90%;
