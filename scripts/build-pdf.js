@@ -67,10 +67,9 @@ require('dotenv').config();
     path: filename,
     printBackground: true,
     format: 'tabloid',
-    scale: 0.8,
+    scale: 0.74,
     displayHeaderFooter: false,
-    landscape: true,
-    preferCSSPageSize: true
+    landscape: true
   });
 
   await browser.close();
