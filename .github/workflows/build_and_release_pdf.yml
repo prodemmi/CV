@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Install dependencies
         run: npm install
@@ -21,18 +21,17 @@ jobs:
 
       - name: Create release
         id: create_release
-        uses: elgohr/Github-Release-Action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+        uses: ncipollo/release-action@v1.12.0
         with:
-          title: CV PDF
+          artifacts: dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf
+          token: ${{ secrets.PAT_TOKEN }}
+          draft: false
+          prerelease: false
+          files_glob: '*'
+          tag_name: v1.0.0
 
       - name: Upload PDF to release
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+        uses: actions/upload-artifact@v3
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf
-          asset_name: EmadMalekpour-SeniorDeveloper_EN.pdf
-          asset_content_type: application/pdf
+          name: EmadMalekpour-SeniorDeveloper_EN.pdf
+          path: dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf
