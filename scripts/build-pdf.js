@@ -3,14 +3,14 @@
 var fs = require('fs');
 var path = require('path');
 const puppeteer = require('puppeteer');
+require('dotenv').config();
 
 (async () => {
   const htmlFile = path.resolve(__dirname + '/../dist/index.html');
   const filename = path.resolve(__dirname + '/../dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf');
   fs.mkdirSync(path.dirname(filename), { recursive: true });
 
-  const browser = await puppeteer.launch({
-    executablePath: "/usr/bin/google-chrome",
+  const options = {
     headless: true,
     args: ['--disable-features=IsolateOrigins',
       '--disable-site-isolation-trials',
@@ -49,7 +49,13 @@ const puppeteer = require('puppeteer');
       '--password-store=basic',
       '--use-gl=swiftshader',
       '--use-mock-keychain']
-  })
+  }
+
+  if (process.env.DEBUG === "true"){
+    options.executablePath = "/usr/bin/google-chrome";
+  }
+
+  const browser = await puppeteer.launch(options)
 
   const page = await browser.newPage();
 
