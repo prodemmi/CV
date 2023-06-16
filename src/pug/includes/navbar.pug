@@ -7,14 +7,19 @@ nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top.d-print-non
     #navbarResponsive.collapse.navbar-collapse
         ul.navbar-nav
             li.nav-item
-                a.nav-link.js-scroll-trigger(href='#about-section') #{t("navbar.about")}
+                a.nav-link.js-scroll-trigger(href='#about-section') #{t("navbar.about", lang)}
             li.nav-item
-                a.nav-link.js-scroll-trigger(href='#experience-section') #{t("navbar.experience")}
+                a.nav-link.js-scroll-trigger(href='#experience-section') #{t("navbar.experience", lang)}
             li.nav-item
-                a.nav-link.js-scroll-trigger(href='#education-section') #{t("navbar.education")}
+                a.nav-link.js-scroll-trigger(href='#education-section') #{t("navbar.education", lang)}
             li.nav-item
-                a.nav-link.js-scroll-trigger(href='#skills-section') #{t("navbar.skills")}
+                a.nav-link.js-scroll-trigger(href='#skills-section') #{t("navbar.skills", lang)}
             li.nav-item
-                a.nav-link.js-scroll-trigger(href='#interests-section') #{t("navbar.interests")}
+                a.nav-link.js-scroll-trigger(href='#interests-section') #{t("navbar.interests", lang)}
             //- li.nav-item
-            //-     a.nav-link.js-scroll-trigger(href='#awards-section') #{t("navbar.awards")}
+            //-     a.nav-link.js-scroll-trigger(href='#awards-section') #{t("navbar.awards", lang)}
+
+    div.lang-container
+        button(onclick='changelanguage("en")').lang-button EN
+        ||
+        button(onclick='changelanguage("fa")').lang-button FA

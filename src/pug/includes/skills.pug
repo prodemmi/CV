@@ -1,19 +1,19 @@
 section#skills-section
     .content
-        h2.header #{t("navbar.skills")}
+        h2.header #{t("navbar.skills", lang)}
         div.lead
-            div.subheading #{t("skills.subheading")}
+            div.subheading #{t("skills.subheading", lang)}
             div.icons
-                each skill in t("skills.skills") || []
+                each skill in t("skills.skills", lang) || []
                     img.icon(src=skill alt="" width=52)
                     
-            div.subheading #{t("skills.focuses")}
+            div.subheading #{t("skills.focuses", lang)}
             div.icons
-                each focusedSkill in t("skills.focused_skills") || []
+                each focusedSkill in t("skills.focused_skills", lang) || []
                     img.icon(src=focusedSkill alt="" width=52)
 
             ul.items
-                each item in t("skills.items") || []
+                each item in t("skills.items", lang) || []
                     li.item
                         i.fas.fa-check
                         span #{item}

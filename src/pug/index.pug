@@ -6,7 +6,7 @@ html(lang=lang dir=dir)
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title #{t("head.title")}
+        title(translates=t("head.title")) 
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.png')
 
@@ -26,6 +26,7 @@ html(lang=lang dir=dir)
 
         // Page Content
         .container-fluid
+
             // About
             include includes/about.pug
 
@@ -57,3 +58,7 @@ html(lang=lang dir=dir)
 
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
         script(src='js/scripts.js')
+        script.
+            function changelanguage(lang){
+                window.location.pathname = `index-${lang}.html`;
+            }
