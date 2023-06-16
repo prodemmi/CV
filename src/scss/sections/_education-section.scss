@@ -45,7 +45,9 @@
         }
 
         .lead {
-            padding: 1.0rem !important;
+            padding: 0 !important;
+            padding-bottom: 2rem !important;
+            margin-top: 2rem !important;
             display: flex !important;
             justify-content: space-around !important;
         }

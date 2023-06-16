@@ -5,6 +5,7 @@
 body {
     padding-top: $navbar-base-height;
     color: $gray-600;
+
 }
 
 html:lang(fa) * {
@@ -52,26 +53,6 @@ ol {
     padding: 0 !important;
 }
 
-.lang-container {
-    @extend .d-flex;
-    @extend .align-items-center;
-    color: white !important;
-
-    .lang-button {
-        background-color: transparent;
-        border: none;
-        font-size: 1.0rem;
-        transition: all .1s;
-        margin: 0 .6rem;
-        color: var(--bs-navbar-active-color);
-        font-weight: 500;
-
-        &:hover {
-            color: white !important;
-        }
-    }
-}
-
 section {
     @extend .px-4;
     @extend .py-5;
@@ -80,6 +61,23 @@ section {
 .page-break {
     page-break-inside: avoid !important;
     opacity: 0;
+}
+
+@media (max-width: $layout-breakpoint-small) {
+    body #sideNav .desktop {
+        display: none !important;
+    }
+}
+
+@media (min-width: $layout-breakpoint-small) {
+    html {
+        text-align: justify;
+        word-wrap: normal;
+    }
+
+    body #sideNav .mobile {
+        display: none !important;
+    }
 }
 
 @media print {
