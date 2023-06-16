@@ -60,5 +60,6 @@ html(lang=lang dir=dir)
         script(src='js/scripts.js')
         script.
             function changelanguage(lang){
+                localStorage.setItem("prodemmi-site-lang", lang);
                 window.location.pathname = `index-${lang}.html`;
             }
