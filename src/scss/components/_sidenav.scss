@@ -23,6 +23,33 @@
             outline-color: lighten($primary, 15%);
         }
     }
+
+    .lang-container {
+        @extend .d-flex;
+        @extend .align-items-center;
+        color: white !important;
+
+        &.mobile {
+            margin-left: -6px !important;
+        }
+
+        .lang-splitter{
+            margin: 0 .6rem;
+        }
+
+        .lang-button {
+            background-color: transparent;
+            border: none;
+            font-size: 1.0rem;
+            transition: all .1s;
+            color: var(--bs-navbar-active-color);
+            font-weight: 500;
+    
+            &:hover {
+                color: white !important;
+            }
+        }
+    }
 }
 
 @include media-breakpoint-up(lg) {
