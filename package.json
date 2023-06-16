@@ -1,7 +1,7 @@
 {
     "title": "Emad Malekpour CV",
     "name": "prodemmi-cv",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
