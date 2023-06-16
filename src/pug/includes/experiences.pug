@@ -6,7 +6,7 @@ section#experience-section
                 li.experience
                     .main-section
                         h3.header #{experience.title}
-                        .subheading !{experience.subtitle}
+                        h4.subheading !{experience.subtitle}
 
                         p.lead !{experience.summary}
 
@@ -22,7 +22,7 @@ section#experience-section
                                 each label, index in experience.labels
                                     span.label(style={background: label.color ? label.color : "#000"})
                                         if label.icon
-                                            img(src=label.icon alt="" width=18 height=18)
+                                            img(src=label.icon alt="" width=16 height=16)
                                         span #{label.title}
 
                     .time-section

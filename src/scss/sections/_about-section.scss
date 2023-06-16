@@ -35,7 +35,7 @@
             color: $white;
             border-radius: 100%;
             font-size: 1.5rem;
-            margin-right: 1.5rem;
+            margin-right: 1.2rem;
 
             &:last-child {
                 margin-right: 0;
@@ -44,6 +44,11 @@
             &:hover {
                 background-color: $primary;
             }
+        }
+
+        .social-icon:lang(fa) {
+            margin-right: 0 !important;
+            margin-left: 1.2rem !important;
         }
     }
 }

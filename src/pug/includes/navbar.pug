@@ -18,3 +18,8 @@ nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top.d-print-non
                 a.nav-link.js-scroll-trigger(href='#interests-section') #{t("navbar.interests")}
             //- li.nav-item
             //-     a.nav-link.js-scroll-trigger(href='#awards-section') #{t("navbar.awards")}
+
+    div.lang-container
+        button(onclick='changelanguage("en")').lang-button EN
+        ||
+        button(onclick='changelanguage("fa")').lang-button FA

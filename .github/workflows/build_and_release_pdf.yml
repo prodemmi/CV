@@ -30,7 +30,7 @@ jobs:
         id: create_release
         uses: ncipollo/release-action@v1.12.0
         with:
-          artifacts: "dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf"
+          artifacts: "dist/assets/pdf/*.pdf"
           token: ${{ secrets.PAT_TOKEN }}
           draft: false
           prerelease: false
@@ -40,5 +40,5 @@ jobs:
       - name: Upload PDF to release
         uses: actions/upload-artifact@v3
         with:
-          name: EmadMalekpour-SeniorDeveloper_EN.pdf
-          path: dist/assets/pdf/EmadMalekpour-SeniorDeveloper_EN.pdf
+          name: pdf-artifact
+          path: dist/assets/pdf/*.pdf
