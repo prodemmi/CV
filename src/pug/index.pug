@@ -21,6 +21,9 @@ html(lang=lang dir=dir)
         link(href='css/styles.css', rel='stylesheet')
 
     body
+
+        div#page-top.w-10 
+
         // Navigation
         include includes/navbar.pug
 
@@ -37,20 +40,20 @@ html(lang=lang dir=dir)
 
             div.page-break page-break
 
-            // Education
-            include includes/education.pug
-            
             // Skills
             include includes/skills.pug
 
-            div.page-break page-break
-
-            // Interests
-            include includes/interests.pug
+            // Education
+            include includes/education.pug
 
             //- div.page-break page-break
 
-            //- // Avards
+            //- // Interests
+            //- include includes/interests.pug
+
+            //- div.page-break page-break
+
+            //- // Awards
             //- include includes/awards.pug
 
             // Footer 
@@ -60,6 +63,13 @@ html(lang=lang dir=dir)
         script(src='js/scripts.js')
         script.
             function changelanguage(lang){
-                localStorage.setItem("prodemmi-site-lang", lang);
+                localStorage.setItem("prodemmi-site-lang", lang.trim().toLowerCase());
                 window.location.pathname = `index-${lang}.html`;
             }
+
+            document.addEventListener("DOMContentLoaded", function() {
+                const langButtons = document.querySelectorAll(`[lng=${localStorage.getItem("prodemmi-site-lang")}]`);
+                for (const el of langButtons){
+                    el.style.color = "white";
+                }
+            });

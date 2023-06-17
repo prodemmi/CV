@@ -1,12 +1,12 @@
 #skills-section {
-    min-height: 80vh;
+    min-height: 60vh;
 
     .header {
         @extend .mb-2;
     }
 
     .subheading {
-        @extend .mb-4;
+        @extend .mb-2;
     }
 
     .lead {
@@ -24,7 +24,7 @@
     }
 
     .items {
-        @extend .mt-5;
+        @extend .mt-2;
     }
 }
 
@@ -39,6 +39,7 @@
 
         .icons .icon {
             width: 32px !important;
+            height: 32px !important;
         }
 
         .items .item {

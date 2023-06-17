@@ -9,17 +9,18 @@
     }
 
     .header {
-        @extend .mb-0;
+        @extend .mb-2;
     }
 
     .subheading {
         margin-bottom: 2rem;
         font-size: 1.8rem;
+        text-transform: uppercase;
     }
 
     .lead {
-        font-size: 1.15rem;
-        font-weight: 400;
+        font-size: 1.3rem;
+        font-weight: 500;
     }
 
     .social-icons {

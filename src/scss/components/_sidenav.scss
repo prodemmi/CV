@@ -27,10 +27,14 @@
     .lang-container {
         @extend .d-flex;
         @extend .align-items-center;
-        color: white !important;
+        color: #8ce4bf;
 
         &.mobile {
             margin-left: -6px !important;
+        }
+
+        &.mobile:lang(fa) {
+            margin-right: -6px !important;
         }
 
         .lang-splitter{
@@ -40,13 +44,13 @@
         .lang-button {
             background-color: transparent;
             border: none;
-            font-size: 1.0rem;
+            font-size: 1.2rem;
             transition: all .1s;
-            color: var(--bs-navbar-active-color);
             font-weight: 500;
+            color: #8ce4bf;
     
             &:hover {
-                color: white !important;
+                color: white;
             }
         }
     }

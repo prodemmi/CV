@@ -12,7 +12,7 @@ section#experience-section
 
                         if experience.links
                             div.links
-                                span Links:
+                                span #{t("experiences_links")}:
                                 each link, index in experience.links
                                     a.text-primary(target="_blank" href=link.href) !{link.title}
                                     if index < experience.links.length - 1
@@ -22,7 +22,7 @@ section#experience-section
                                 each label, index in experience.labels
                                     span.label(style={background: label.color ? label.color : "#000"})
                                         if label.icon
-                                            img(src=label.icon alt="" width=16 height=16)
+                                            img(src=label.icon alt="" width=12 height=12)
                                         span #{label.title}
 
                     .time-section

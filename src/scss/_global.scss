@@ -12,6 +12,10 @@ html:lang(fa) * {
     font-family: 'bnazanin' !important;
 }
 
+body:not(:last-child) {
+    page-break-after: always;
+}
+
 @include media-breakpoint-up(lg) {
     body {
         padding-top: 0;
