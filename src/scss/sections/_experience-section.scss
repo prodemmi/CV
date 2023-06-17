@@ -14,9 +14,11 @@
 
         .header {
             @extend .m-0;
+            font-size: 2.2rem;
         }
 
         .subheading {
+            @extend .my-1;
             font-family: $headings-font-family;
             text-transform: uppercase;
             font-weight: 500;
@@ -24,8 +26,9 @@
         }
 
         .lead {
-            font-size: 1.15rem;
-            font-weight: 400;
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin-top: 1rem;
         }
 
         .main-section {
@@ -34,6 +37,7 @@
 
         .time-section {
             @extend .flex-shrink-0;
+            @extend .mx-4;
         }
 
         .links {
@@ -48,14 +52,14 @@
             @extend .align-items-center;
 
             .label {
-                @extend .shadow;
+                @extend .shadow-sm;
                 @extend .user-select-none;
                 direction: ltr !important;
                 font-size: .7rem;
                 font-weight: bold;
                 font-family: var(--bs-body-font-family) !important;
                 color: #fff;
-                padding: 2px 4px;
+                padding: 4px;
                 margin: 3px;
                 text-align: center;
                 min-width: 80px;
@@ -82,9 +86,34 @@
 @media (max-width: $layout-breakpoint-small) {
     #experience-section {
         padding: 1.0rem !important;
+        text-align: justify !important;
+
         .container {
             padding: 0 !important;
             margin-top: 2rem !important;
+        }
+
+        .header {
+            color: black !important;
+            font-weight: bold !important;
+            font-size: 1.5rem !important;
+        }
+
+        .subheading {
+            font-weight: 400 !important;
+            font-size: 0.9rem !important;
+        }
+
+        .lead {
+            font-size: .8rem !important;
+        }
+
+        .labels .label {
+            font-size: .5rem !important;
+            padding: 2px 0 !important;
+            min-width: 70px !important;
+            height: 22px !important;
+            line-height: 18px !important;
         }
     }
 }
