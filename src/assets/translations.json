@@ -49,12 +49,12 @@
                 ],
                 "labels": [
                     {
-                        "icon": "https://laravel.com/img/logomark.min.svg",
+                        "icon": "assets/icons/laravel.svg",
                         "title": "Laravel",
                         "color": "#1C315E"
                     },
                     {
-                        "icon": "https://leadsbridge.com/wp-content/themes/leadsbridge/img/integration-lg-logos/logo396.png",
+                        "icon": "assets/icons/mysql.png",
                         "title": "MySql",
                         "color": "#B99B6B"
                     },
@@ -72,37 +72,37 @@
                 "time": "October 2023 - March 2023",
                 "labels": [
                     {
-                        "icon": "https://camo.githubusercontent.com/835c79e3d9ddc9ff59dfa31fe5868d359a091950992ed736422413d214ec5981/68747470733a2f2f696d672e69636f6e73382e636f6d2f65787465726e616c2d74616c2d72657669766f2d736861646f772d74616c2d72657669766f2f3235362f65787465726e616c2d6d6f6e676f64622d612d63726f73732d706c6174666f726d2d646f63756d656e742d6f7269656e7465642d64617461626173652d70726f6772616d2d6c6f676f2d736861646f772d74616c2d72657669766f2e706e67",
+                        "icon": "assets/icons/mongoDB.png",
                         "title": "MongoDB",
                         "color": "#83b72b"
                     },
                     {
-                        "icon": "https://www.frontendmag.com/wp-content/uploads/2023/02/express-logo.png",
+                        "icon": "assets/icons/expressJs.png",
                         "title": "ExpressJs",
                         "color": "#5D9C59"
                     },
                     {
-                        "icon": "https://www.shareicon.net/data/256x256/2016/07/08/117367_logo_512x512.png",
+                        "icon": "assets/icons/react.png",
                         "title": "ReactJs",
                         "color": "#3b4076"
                     },
                     {
-                        "icon": "https://ph-files.imgix.net/2e26f07f-e5e5-411e-ba1e-e92c4083bd92.png?auto=format&fit=crop",
+                        "icon": "assets/icons/tailwind.avif",
                         "title": "Tailwind",
                         "color": "#298dc8"
                     },
                     {
-                        "icon": "https://cdn-icons-png.flaticon.com/256/5968/5968322.png",
+                        "icon": "assets/icons/nodeJs.png",
                         "title": "NodeJs",
                         "color": "#ffb187"
                     },
                     {
-                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-javascript-2752148-2284965.png",
+                        "icon": "assets/icons/javascript.webp",
                         "title": "Javascript",
                         "color": "#000"
                     },
                     {
-                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-python-3628999-3030224.png?f=webp",
+                        "icon": "assets/icons/python.webp",
                         "title": "Python",
                         "color": "#27374D"
                     },
@@ -112,7 +112,7 @@
                         "color": null
                     },
                     {
-                        "icon": "https://static-00.iconduck.com/assets.00/docker-icon-256x256-jzvgqn21.png",
+                        "icon": "assets/icons/docker.png",
                         "title": "Docker",
                         "color": "#3795BD"
                     },
@@ -130,27 +130,27 @@
                 "time": "October 2018 - March 2023",
                 "labels": [
                     {
-                        "icon": "https://laravel.com/img/logomark.min.svg",
+                        "icon": "assets/icons/laravel.svg",
                         "title": "Laravel",
                         "color": "#1C315E"
                     },
                     {
-                        "icon": "https://leadsbridge.com/wp-content/themes/leadsbridge/img/integration-lg-logos/logo396.png",
+                        "icon": "assets/icons/mysql.png",
                         "title": "MySql",
                         "color": "#B99B6B"
                     },
                     {
-                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-angularjs-1-1175270.png",
+                        "icon": "assets/icons/angularJs.png",
                         "title": "AngularJs",
                         "color": "#FCE22A"
                     },
                     {
-                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-javascript-2752148-2284965.png",
+                        "icon": "assets/icons/javascript.webp",
                         "title": "Javascript",
                         "color": "#000"
                     },
                     {
-                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png",
+                        "icon": "assets/icons/vueJs.png",
                         "title": "VueJs",
                         "color": "#31868b"
                     }
@@ -173,22 +173,22 @@
                 "time": "October 2019 - October 2019",
                 "labels": [
                     {
-                        "icon": "https://laravel.com/img/logomark.min.svg",
+                        "icon": "assets/icons/laravel.svg",
                         "title": "Laravel",
                         "color": "#1C315E"
                     },
                     {
-                        "icon": "https://leadsbridge.com/wp-content/themes/leadsbridge/img/integration-lg-logos/logo396.png",
+                        "icon": "assets/icons/mysql.png",
                         "title": "MySql",
                         "color": "#B99B6B"
                     },
                     {
-                        "icon": "https://www.w3.org/html/logo/downloads/HTML5_Badge_256.png",
+                        "icon": "assets/icons/html5.png",
                         "title": "HTML",
                         "color": "#F29727"
                     },
                     {
-                        "icon": "https://cdn.icon-icons.com/icons2/1826/PNG/512/4202020css3htmllogosocialsocialmedia-115668_115633.png",
+                        "icon": "assets/icons/css.png",
                         "title": "CSS",
                         "color": "#2E8A99"
                     }
@@ -201,17 +201,17 @@
                 "time": "October 2018 - March 2019",
                 "labels": [
                     {
-                        "icon": "https://play-lh.googleusercontent.com/lKqgoL_UJvmytVdTHc5bkVOUTrbUTIOhTKBsWDt9K5gWs-PKXPFz3R_os93FShkb3w",
+                        "icon": "assets/icons/flutter.png",
                         "title": "Flutter",
                         "color": "#19A7CE"
                     },
                     {
-                        "icon": "https://mobx.js.org/assets/mobx.png",
+                        "icon": "assets/icons/mobx.png",
                         "title": "MobX",
                         "color": "#e9bf65"
                     },
                     {
-                        "icon": "https://avatars.githubusercontent.com/u/55202745?s=200&v=4",
+                        "icon": "assets/icons/hiveDB.png",
                         "title": "HiveDB",
                         "color": "#517eb8"
                     }
@@ -252,26 +252,26 @@
         "skills": {
             "subheading" : "Programming Languages & Tools:",
             "skills": [
-                "https://laravel.com/img/logomark.min.svg",
-                "https://icon-library.com/images/django-icon/django-icon-0.jpg",
-                "https://cdn-icons-png.flaticon.com/256/5968/5968322.png",
-                "https://cdn.iconscout.com/icon/free/png-256/free-javascript-2752148-2284965.png",
-                "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png",
-                "https://ph-files.imgix.net/2e26f07f-e5e5-411e-ba1e-e92c4083bd92.png?auto=format&fit=crop",
-                "https://www.shareicon.net/data/256x256/2016/07/08/117367_logo_512x512.png",
-                "https://play-lh.googleusercontent.com/lKqgoL_UJvmytVdTHc5bkVOUTrbUTIOhTKBsWDt9K5gWs-PKXPFz3R_os93FShkb3w",
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/256px-Electron_Software_Framework_Logo.svg.png?20190331235051",
-                "https://hashin.in/hash/_layout/images/expertise/qt.png",
-                "https://cdn.iconscout.com/icon/free/png-256/free-git-225996.png?f=webp",
-                "https://cdn.iconscout.com/icon/free/png-256/free-linux-3628892-3030032.png?f=webp",
-                "https://www.jetbrains.com/go/guide/assets/go-f24b0b67.png",
-                "https://static-00.iconduck.com/assets.00/docker-icon-256x256-jzvgqn21.png"
+                "assets/icons/laravel.svg",
+                "assets/icons/django.jpg",
+                "assets/icons/nodeJs.png",
+                "assets/icons/javascript.webp",
+                "assets/icons/vueJs.png",
+                "assets/icons/tailwind.avif",
+                "assets/icons/react.png",
+                "assets/icons/flutter.png",
+                "assets/icons/electronJs.png",
+                "assets/icons/qt.png",
+                "assets/icons/git.webp",
+                "assets/icons/linux.webp",
+                "assets/icons/golang.png",
+                "assets/icons/docker.png"
             ],
             "focuses": "Core skills:",
             "focused_skills": [
-                "https://laravel.com/img/logomark.min.svg",
-                "https://www.jetbrains.com/go/guide/assets/go-f24b0b67.png",
-                "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png"
+                "assets/icons/laravel.svg",
+                "assets/icons/golang.png",
+                "assets/icons/vueJs.png"
             ],
             "items" :[
                 "Energetic and open to challenges",
@@ -333,12 +333,12 @@
                 ],
                 "labels": [
                     {
-                        "icon": "https://laravel.com/img/logomark.min.svg",
+                        "icon": "assets/icons/laravel.svg",
                         "title": "Laravel",
                         "color": "#1C315E"
                     },
                     {
-                        "icon": "https://leadsbridge.com/wp-content/themes/leadsbridge/img/integration-lg-logos/logo396.png",
+                        "icon": "assets/icons/mysql.png",
                         "title": "MySql",
                         "color": "#B99B6B"
                     },
@@ -356,37 +356,37 @@
                 "time": "آبان 1401 تا بهمن 1401",
                 "labels": [
                     {
-                        "icon": "https://camo.githubusercontent.com/835c79e3d9ddc9ff59dfa31fe5868d359a091950992ed736422413d214ec5981/68747470733a2f2f696d672e69636f6e73382e636f6d2f65787465726e616c2d74616c2d72657669766f2d736861646f772d74616c2d72657669766f2f3235362f65787465726e616c2d6d6f6e676f64622d612d63726f73732d706c6174666f726d2d646f63756d656e742d6f7269656e7465642d64617461626173652d70726f6772616d2d6c6f676f2d736861646f772d74616c2d72657669766f2e706e67",
+                        "icon": "assets/icons/mongoDB.png",
                         "title": "MongoDB",
                         "color": "#83b72b"
                     },
                     {
-                        "icon": "https://www.frontendmag.com/wp-content/uploads/2023/02/express-logo.png",
+                        "icon": "assets/icons/expressJs.png",
                         "title": "ExpressJs",
                         "color": "#5D9C59"
                     },
                     {
-                        "icon": "https://www.shareicon.net/data/256x256/2016/07/08/117367_logo_512x512.png",
+                        "icon": "assets/icons/react.png",
                         "title": "ReactJs",
                         "color": "#3b4076"
                     },
                     {
-                        "icon": "https://ph-files.imgix.net/2e26f07f-e5e5-411e-ba1e-e92c4083bd92.png?auto=format&fit=crop",
+                        "icon": "assets/icons/tailwind.avif",
                         "title": "Tailwind",
                         "color": "#298dc8"
                     },
                     {
-                        "icon": "https://cdn-icons-png.flaticon.com/256/5968/5968322.png",
+                        "icon": "assets/icons/nodeJs.png",
                         "title": "NodeJs",
                         "color": "#ffb187"
                     },
                     {
-                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-javascript-2752148-2284965.png",
+                        "icon": "assets/icons/javascript.webp",
                         "title": "Javascript",
                         "color": "#000"
                     },
                     {
-                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-python-3628999-3030224.png?f=webp",
+                        "icon": "assets/icons/python.webp",
                         "title": "Python",
                         "color": "#27374D"
                     },
@@ -396,7 +396,7 @@
                         "color": null
                     },
                     {
-                        "icon": "https://static-00.iconduck.com/assets.00/docker-icon-256x256-jzvgqn21.png",
+                        "icon": "assets/icons/docker.png",
                         "title": "Docker",
                         "color": "#3795BD"
                     },
@@ -414,27 +414,27 @@
                 "time": "مرداد 1396 تا شهریور 1401",
                 "labels": [
                     {
-                        "icon": "https://laravel.com/img/logomark.min.svg",
+                        "icon": "assets/icons/laravel.svg",
                         "title": "Laravel",
                         "color": "#1C315E"
                     },
                     {
-                        "icon": "https://leadsbridge.com/wp-content/themes/leadsbridge/img/integration-lg-logos/logo396.png",
+                        "icon": "assets/icons/mysql.png",
                         "title": "MySql",
                         "color": "#B99B6B"
                     },
                     {
-                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-angularjs-1-1175270.png",
+                        "icon": "assets/icons/angularJs.png",
                         "title": "AngularJs",
                         "color": "#FCE22A"
                     },
                     {
-                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-javascript-2752148-2284965.png",
+                        "icon": "assets/icons/javascript.webp",
                         "title": "Javascript",
                         "color": "#000"
                     },
                     {
-                        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png",
+                        "icon": "assets/icons/vueJs.png",
                         "title": "VueJs",
                         "color": "#31868b"
                     }
@@ -457,22 +457,22 @@
                 "time": "مرداد 1397 تا شهریور 1397",
                 "labels": [
                     {
-                        "icon": "https://laravel.com/img/logomark.min.svg",
+                        "icon": "assets/icons/laravel.svg",
                         "title": "Laravel",
                         "color": "#1C315E"
                     },
                     {
-                        "icon": "https://leadsbridge.com/wp-content/themes/leadsbridge/img/integration-lg-logos/logo396.png",
+                        "icon": "assets/icons/mysql.png",
                         "title": "MySql",
                         "color": "#B99B6B"
                     },
                     {
-                        "icon": "https://www.w3.org/html/logo/downloads/HTML5_Badge_256.png",
+                        "icon": "assets/icons/html5.png",
                         "title": "HTML",
                         "color": "#F29727"
                     },
                     {
-                        "icon": "https://cdn.icon-icons.com/icons2/1826/PNG/512/4202020css3htmllogosocialsocialmedia-115668_115633.png",
+                        "icon": "assets/icons/css.png",
                         "title": "CSS",
                         "color": "#2E8A99"
                     }
@@ -485,17 +485,17 @@
                 "time": "مهر 1398 تا اردیبهشت 1399",
                 "labels": [
                     {
-                        "icon": "https://play-lh.googleusercontent.com/lKqgoL_UJvmytVdTHc5bkVOUTrbUTIOhTKBsWDt9K5gWs-PKXPFz3R_os93FShkb3w",
+                        "icon": "assets/icons/flutter.png",
                         "title": "Flutter",
                         "color": "#19A7CE"
                     },
                     {
-                        "icon": "https://mobx.js.org/assets/mobx.png",
+                        "icon": "assets/icons/mobx.png",
                         "title": "MobX",
                         "color": "#e9bf65"
                     },
                     {
-                        "icon": "https://avatars.githubusercontent.com/u/55202745?s=200&v=4",
+                        "icon": "assets/icons/hiveDB.png",
                         "title": "HiveDB",
                         "color": "#517eb8"
                     }
@@ -536,26 +536,26 @@
         "skills": {
             "subheading" : "زبان ها و ابزارهای برنامه نویسی:",
             "skills": [
-                "https://laravel.com/img/logomark.min.svg",
-                "https://icon-library.com/images/django-icon/django-icon-0.jpg",
-                "https://cdn-icons-png.flaticon.com/256/5968/5968322.png",
-                "https://cdn.iconscout.com/icon/free/png-256/free-javascript-2752148-2284965.png",
-                "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png",
-                "https://ph-files.imgix.net/2e26f07f-e5e5-411e-ba1e-e92c4083bd92.png?auto=format&fit=crop",
-                "https://www.shareicon.net/data/256x256/2016/07/08/117367_logo_512x512.png",
-                "https://play-lh.googleusercontent.com/lKqgoL_UJvmytVdTHc5bkVOUTrbUTIOhTKBsWDt9K5gWs-PKXPFz3R_os93FShkb3w",
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/256px-Electron_Software_Framework_Logo.svg.png?20190331235051",
-                "https://hashin.in/hash/_layout/images/expertise/qt.png",
-                "https://cdn.iconscout.com/icon/free/png-256/free-git-225996.png?f=webp",
-                "https://cdn.iconscout.com/icon/free/png-256/free-linux-3628892-3030032.png?f=webp",
-                "https://www.jetbrains.com/go/guide/assets/go-f24b0b67.png",
-                "https://static-00.iconduck.com/assets.00/docker-icon-256x256-jzvgqn21.png"
+                "assets/icons/laravel.svg",
+                "assets/icons/django.jpg",
+                "assets/icons/nodeJs.png",
+                "assets/icons/javascript.webp",
+                "assets/icons/vueJs.png",
+                "assets/icons/tailwind.avif",
+                "assets/icons/react.png",
+                "assets/icons/flutter.png",
+                "assets/icons/electronJs.png",
+                "assets/icons/qt.png",
+                "assets/icons/git.webp",
+                "assets/icons/linux.webp",
+                "assets/icons/golang.png",
+                "assets/icons/docker.png"
             ],
             "focuses": "تمرکز های اصلی:",
             "focused_skills": [
-                "https://laravel.com/img/logomark.min.svg",
-                "https://www.jetbrains.com/go/guide/assets/go-f24b0b67.png",
-                "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png"
+                "assets/icons/laravel.svg",
+                "assets/icons/golang.png",
+                "assets/icons/vueJs.png"
             ],
             "items" :[
                 "آماده دریافت و حل چالش ها",
