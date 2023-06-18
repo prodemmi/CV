@@ -120,6 +120,8 @@
 
 @media print {
     #experience-section {
+        padding: 2rem !important;
+
         .container {
             display: flex;
             flex-wrap: wrap;

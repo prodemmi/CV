@@ -1,9 +1,7 @@
 .footer {
     @extend .d-none;
     @extend .d-print-block;
-    position: relative;
-    bottom: 54px;
-    left: 0;
     width: 100%;
+    margin: auto;
     text-align: center;
 }

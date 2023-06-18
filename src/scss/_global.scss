@@ -24,7 +24,7 @@ body:not(:last-child) {
 
     body:lang(fa) {
         padding-left: 0 !important;
-        padding-right: $sidebar-base-width !important;
+        padding-right: $sidebar-base-width;
     }
 }
 
