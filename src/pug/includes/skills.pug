@@ -1,19 +1,37 @@
 section#skills-section
-    .content
-        h2.header #{t("navbar.skills")}
-        div.lead
-            div.subheading #{t("skills.subheading")}
-            div.icons
-                each skill in t("skills.skills") || []
-                    img.icon(src=skill alt="" width=52 height=52)
-                    
-            div.subheading #{t("skills.focuses")}
-            div.icons
-                each focusedSkill in t("skills.focused_skills") || []
-                    img.icon(src=focusedSkill alt="" width=52 height=52)
+  .content
+    h2.header #{ t("navbar.skills") }
+    .lead
+      .subheading #{ t("skills.backend_subheading") }
+      .icons
+        each skill in t("skills.backend_skills") || []
+          .wrapper
+            img.icon(src=skill, alt='', width=52, height=52)
+            span #{ getName(skill) }
 
-            ul.items
-                each item in t("skills.items") || []
-                    li.item
-                        i.fas.fa-check
-                        span #{item}
+      .subheading #{ t("skills.frontend_subheading") }
+      .icons
+        each skill in t("skills.frontend_skills") || []
+          .wrapper
+            img.icon(src=skill, alt='', width=52, height=52)
+            span #{ getName(skill) }
+
+      .subheading #{ t("skills.other_skills") }
+      .icons
+        each os_icon in t("skills.other_skills_icons") || []
+          .wrapper
+            img.icon(src=os_icon, alt='', width=52, height=52)
+            span #{ getName(os_icon) }
+
+      .subheading #{ t("skills.focuses") }
+      .icons
+        each focusedSkill in t("skills.focused_skills") || []
+          .wrapper
+            img.icon(src=focusedSkill, alt='', width=52, height=52)
+            span #{ getName(focusedSkill) }
+
+      ul.items
+        each item in t("skills.items") || []
+          li.item
+            i.fas.fa-check
+            span #{ item }

@@ -1,27 +1,30 @@
-// 
+//
 // Styles
-// 
+//
 
 // Import variables
-@import "./variables.scss";
+@import './variables.scss';
 
 // Import Bootstrap
-@import "bootstrap/scss/bootstrap.scss";
+@import 'bootstrap/scss/bootstrap.scss';
 
 // Global CSS
-@import "./global.scss";
+@import './global.scss';
 
 // Font Faces
-@import "./fonts.scss";
+@import './fonts.scss';
 
 // Components
-@import "./components/sidenav.scss";
-@import "./components/icons.scss";
-@import "./components/footer.scss";
+@import './components/sidenav.scss';
+@import './components/icons.scss';
+@import './components/footer.scss';
 
 // Sections
-@import "./sections/about-section.scss";
-@import "./sections/experience-section.scss";
-@import "./sections/education-section.scss";
-@import "./sections/skills-section.scss";
-@import "./sections/interests-section.scss";
+@import './sections/about-section.scss';
+@import './sections/experience-section.scss';
+@import './sections/education-section.scss';
+@import './sections/skills-section.scss';
+@import './sections/interests-section.scss';
+
+// Packages
+@import './packages/css-tooltip';

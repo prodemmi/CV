@@ -1,32 +1,36 @@
 section#experience-section
-    .content
-        h2.header !{t("navbar.experience")}
-        ul.container
-            each experience, index in t("experiences")
-                li.experience
-                    .main-section
-                        h3.header #{experience.title}
-                        h4.subheading !{experience.subtitle}
+  .content
+    h2.header !{ t("navbar.experience") }
+    ul.container
+      each experience, index in t("experiences")
+        li.experience
+          .main-section
+            h3.header #{ experience.title }
+            h4.subheading !{ experience.subtitle }
+            .time-section.print
+              span.time #{ experience.time }
 
-                        p.lead !{experience.summary}
+            p.lead !{ experience.summary }
 
-                        if experience.links
-                            div.links
-                                span #{t("experiences_links")}:
-                                each link, index in experience.links
-                                    a.text-primary(target="_blank" href=link.href) !{link.title}
-                                    if index < experience.links.length - 1
-                                        span ,
-                        if experience.labels
-                            div.labels
-                                each label, index in experience.labels
-                                    span.label(style={background: label.color ? label.color : "#000"})
-                                        if label.icon
-                                            img(src=label.icon alt="" width=12 height=12)
-                                        span #{label.title}
+            if experience.links
+              .links
+                span #{ t("experiences_links") }:
+                each link, index in experience.links
+                  a.text-primary(target='_blank', href=link.href) !{ link.title }
+                  if index < experience.links.length - 1
+                    span ,
+            if experience.labels
+              .labels
+                each label, index in experience.labels
+                  span.label(
+                    style={ background: label.color ? label.color : '#000' }
+                  )
+                    if label.icon
+                      img(src=label.icon, alt='', width=12, height=12)
+                    span #{ label.title }
 
-                    .time-section
-                        span.time #{experience.time}
+          .time-section.mx-4.not-print
+            span.time #{ experience.time }
 
-                if index <  t("experiences").length - 1
-                    hr.mb-4.d-print-none
+        if index <  t("experiences").length - 1
+          hr.mb-4.d-print-none

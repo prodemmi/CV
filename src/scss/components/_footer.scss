@@ -1,7 +1,8 @@
 .footer {
-    @extend .d-none;
-    @extend .d-print-block;
-    width: 100%;
-    margin: auto;
-    text-align: center;
+  @extend .d-none;
+  @extend .d-print-block;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
 }

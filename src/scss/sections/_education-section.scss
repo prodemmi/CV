@@ -1,69 +1,37 @@
 #education-section {
-    min-height: 30vh;
+  min-height: 30vh;
+  .header {
+    @extend .m-0;
+  }
 
-    .header {
-        @extend .m-0;
-    }
+  .lead {
+    @extend .p-2;
+    display: flex;
+    justify-content: space-around;
+  }
 
-    .lead {
-        @extend .p-5;
-    }
+  .description {
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
 
-    .header {
-        @extend .mb-0;
-    }
-
-    .description {
-        font-size: 1.15rem;
-        font-weight: 400;
-    }
-
-    .content {
-        @extend .d-flex;
-        .container {
-            @extend .w-50;
-        }
-    }
+  .content {
+    @extend .d-flex;
+    @extend .w-100;
+    flex-direction: row;
+  }
 }
 
 @media (min-width: $layout-breakpoint-small) {
-    #education-section {
-        .lead {
-            padding: 2.0rem !important;
-        }
+  #education-section {
+    .lead {
+      padding: 2rem !important;
     }
+  }
 }
 
 @media (max-width: $layout-breakpoint-small) {
-    #education-section {
-        padding: 1.0rem !important;
-        .content {
-            flex-direction: column !important;
-            .container {
-                width: 100% !important;
-            }
-        }
-
-        .lead {
-            padding: 0 !important;
-            padding-bottom: 2rem !important;
-            margin-top: 2rem !important;
-            display: flex !important;
-            justify-content: space-around !important;
-        }
-    }
-}
-
-@media print {
-    #education-section {
-        padding: 2rem !important;
-        
-        .header {
-            font-size: 4.0rem;
-        }
-
-        .lead {
-            font-size: 2.0rem;
-        }
-    }
+  #education-section {
+    padding: 1rem !important;
+  }
 }
