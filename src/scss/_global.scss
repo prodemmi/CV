@@ -70,7 +70,8 @@ section {
 }
 
 @media (max-width: $layout-breakpoint-small) {
-  body #sideNav .desktop, .desktop {
+  body #sideNav .desktop,
+  .desktop {
     display: none !important;
   }
 }
@@ -81,7 +82,8 @@ section {
     word-wrap: normal;
   }
 
-  body #sideNav .mobile, .mobile {
+  body #sideNav .mobile,
+  .mobile {
     display: none !important;
   }
 }
