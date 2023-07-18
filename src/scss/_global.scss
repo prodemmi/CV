@@ -1,31 +1,30 @@
-// 
+//
 // Global
-// 
+//
 
 body {
-    padding-top: $navbar-base-height;
-    color: $gray-600;
-
+  padding-top: $navbar-base-height;
+  color: $gray-600;
 }
 
 html:lang(fa) * {
-    font-family: 'bnazanin' !important;
+  font-family: 'bnazanin' !important;
 }
 
 body:not(:last-child) {
-    page-break-after: always;
+  page-break-after: always;
 }
 
 @include media-breakpoint-up(lg) {
-    body {
-        padding-top: 0;
-        padding-left: $sidebar-base-width;
-    }
+  body {
+    padding-top: 0;
+    padding-left: $sidebar-base-width;
+  }
 
-    body:lang(fa) {
-        padding-left: 0 !important;
-        padding-right: $sidebar-base-width;
-    }
+  body:lang(fa) {
+    padding-left: 0 !important;
+    padding-right: $sidebar-base-width;
+  }
 }
 
 h1,
@@ -34,69 +33,84 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+  text-transform: uppercase;
+  text-align: start;
 
-    &:lang(fa) {
-        font-family: "btitr" !important;
-    }
+  &:lang(fa) {
+    font-family: 'btitr' !important;
+  }
 }
 
 h1 {
-    line-height: 1;
+  line-height: 1;
 }
 
 hr.divider {
-    @extend .m-0;
-    @extend .d-print-none;
+  @extend .m-0;
+  @extend .d-print-none;
 }
 
 ul,
 ol {
-    list-style-type: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 section {
-    @extend .px-4;
-    @extend .py-5;
+  @extend .px-4;
+  @extend .py-5;
 }
 
 .page-break {
-    page-break-inside: avoid !important;
-    opacity: 0;
+  page-break-inside: avoid !important;
+  opacity: 0;
+  width: 32px;
+  height: 32px;
 }
 
 @media (max-width: $layout-breakpoint-small) {
-    body #sideNav .desktop {
-        display: none !important;
-    }
+  body #sideNav .desktop,
+  .desktop {
+    display: none !important;
+  }
 }
 
 @media (min-width: $layout-breakpoint-small) {
-    html {
-        text-align: justify;
-        word-wrap: normal;
-    }
+  html {
+    text-align: justify;
+    word-wrap: normal;
+  }
 
-    body #sideNav .mobile {
-        display: none !important;
-    }
+  body #sideNav .mobile,
+  .mobile {
+    display: none !important;
+  }
+}
+
+.print {
+  display: none !important;
+}
+
+.not-print {
+  display: block !important;
 }
 
 @media print {
-    body {
-        margin: 0 !important;
-        padding: 0 !important;
-    }
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
-    section {
-        padding: 0 !important;
-    }
+  .print {
+    display: block !important;
+  }
 
-    .page-break {
-        page-break-inside: avoid !important;
-        width: 32px;
-        height: 32px;
-    }
+  .not-print {
+    display: none !important;
+  }
+
+  section {
+    padding: 0 !important;
+  }
 }

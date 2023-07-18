@@ -1,15 +1,12 @@
 <html>
-<head>
-</head>
-<body>
+  <head> </head>
+  <body>
     <script>
-        const lang = localStorage.getItem("prodemmi-site-lang");
+      const lang = localStorage.getItem('prodemmi-site-lang');
 
-        if (lang === null || lang === undefined || lang === "")
-            window.location.pathname = "/index-en.html";
-        else 
-            window.location.pathname = `/index-${lang}.html`;
-
+      if (lang === null || lang === undefined || lang === '')
+        window.location.pathname = '/index-en.html';
+      else window.location.pathname = `/index-${lang}.html`;
     </script>
-</body>
+  </body>
 </html>

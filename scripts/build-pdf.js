@@ -36,10 +36,10 @@ const LANGS = ["en", "fa"];
       await page.pdf({
         path: filename,
         printBackground: true,
-        format: 'tabloid',
-        scale: 0.74,
+        format: 'a4',
+        scale: 0.70,
         displayHeaderFooter: false,
-        landscape: true
+        landscape: false
       });
     }
 

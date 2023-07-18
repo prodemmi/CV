@@ -1,33 +1,33 @@
 #interests-section {
-    .header {
-        @extend .mb-2;
-    }
+  .header {
+    @extend .mb-2;
+  }
 
-    .lead {
-        @extend .p-5;
-        font-size: 1.15rem;
-        font-weight: 400;
-    }
+  .lead {
+    @extend .p-5;
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
 }
 
 @media (max-width: $layout-breakpoint-small) {
-    #interests-section {
-        padding: 1.0rem !important;
-        .lead {
-            padding: 0 !important;
-            margin-top: 2rem !important;
-        }
+  #interests-section {
+    padding: 1rem !important;
+    .lead {
+      padding: 0 !important;
+      margin-top: 2rem !important;
     }
+  }
 }
 
 @media print {
-    #interests-section {
-        .header {
-            font-size: 4.0rem;
-        }
-
-        .lead {
-            font-size: 2.0rem;
-        }
+  #interests-section {
+    .header {
+      font-size: 4rem;
     }
+
+    .lead {
+      font-size: 2rem;
+    }
+  }
 }

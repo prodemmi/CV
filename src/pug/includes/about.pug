@@ -1,14 +1,40 @@
 section#about-section
+    a.mobile.navbar-brand
+        img.img-fluid.img-profile.rounded-circle.mx-auto.my-5.shadow-sm(
+            src='assets/img/profile.jpg',
+            alt='Profile',
+            width=220,
+            height=220
+        )
     .content
-        h1.header #{t("about.name")}
+        h1.header #{ t("about.name") }
         .subheading
-            | #{t("about.address")}  ◦  #{t("about.phone")}  ◦ 
-            a(href="mailto:" + t("about.email")) #{t("about.email")}
-        p.lead #{t("about.summary")}
-        .social-icons
-            a.social-icon(target="_blank" href=t("about.linkedin") style={background: "#0067be"})
-                i.fab.fa-linkedin-in
-            a.social-icon(target="_blank" href=t("about.github") style={background: "black"})
-                i.fab.fa-github
-            a.social-icon(target="_blank" href=t("about.twitter") style={background: "#00a3ee"})
-                i.fab.fa-twitter
+            | #{ t("about.address") } | #{ t("about.phone") }
+            p.lead #{ t("about.summary") }
+
+        span #{ t("about.social_accounts") }:
+        .d-flex.justify-content-start
+            .social-icons
+                a.social-icon(
+                    target='_blank',
+                    href=t('about.linkedin'),
+                    style={ background: '#0067be' }
+                )
+                    i.fab.fa-linkedin-in
+                a.social-icon(
+                    target='_blank',
+                    href=t('about.github'),
+                    style={ background: 'black' }
+                )
+                    i.fab.fa-github
+                a.social-icon(
+                    target='_blank',
+                    href=t('about.twitter'),
+                    style={ background: '#00a3ee' }
+                )
+                    i.fab.fa-twitter
+                a.social-icon(
+                    href='mailto:' + t('about.email'),
+                    style={ background: '#c9c9c9' }
+                )
+                    img(src='assets/icons/gmail.png', width=32, height=32)
