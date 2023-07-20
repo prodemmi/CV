@@ -27,7 +27,7 @@
     "experiences": [
       {
         "title": "Senior Front-End Developer",
-        "subtitle": "<a href='https://hacotech.net/' target='_blank'>Hakotech</a> | In-Person | Iran, Isfahan",
+        "subtitle": "<a href='https://hacotech.net/' target='_blank'>Hakotech</a> | In-Person | Isfahan, Iran",
         "summary": "Hakotech is Hakopian's technology unit, which operates with the support and cooperation of an active and young group based on the 5 principles of research, learning, service, trust and innovation.",
         "time": "July 2023 - Now",
         "links": [
@@ -56,7 +56,7 @@
       },
       {
         "title": "Senior Laravel Developer",
-        "subtitle": "<a href='https://trader4.net/' target='_blank'>Trader 4</a> | Remote | England, London",
+        "subtitle": "<a href='https://trader4.net/' target='_blank'>Trader 4</a> | Remote | London, England",
         "summary": "Trader 4 is a platform for traders that provides services such as training and trader panel and sales of indicators, automation, new algorithm, etc.",
         "time": "March 2023 - Jun 2023",
         "links": [
@@ -97,7 +97,7 @@
       },
       {
         "title": "Tech Lead, Senior MERN Developer",
-        "subtitle": "<a href='https://fotomi.app/' target='_blank'>Fotomi</a> | Remote | Iran, Isfahan",
+        "subtitle": "<a href='https://fotomi.app/' target='_blank'>Fotomi</a> | Remote | Isfahan, Iran",
         "summary": "Fotomi is a platform for improving photo quality using AI and GAN neural networks.",
         "time": "October 2023 - March 2023",
         "links": [
@@ -161,7 +161,7 @@
       },
       {
         "title": "Tech Lead, Full-Stack Developer",
-        "subtitle": "<a href='https://axsoot.com/' target='_blank'>Axsoot</a> | Hybrid | Iran, Isfahan",
+        "subtitle": "<a href='https://axsoot.com/' target='_blank'>Axsoot</a> | Hybrid | Isfahan, Iran",
         "summary": "Axsoot is an internet service that allows you to print your photos on various objects such as mug, magnet, t-shirt, album and ... .",
         "time": "October 2018 - March 2023",
         "links": [
@@ -208,7 +208,7 @@
       },
       {
         "title": "Full-Stack Developer",
-        "subtitle": "<a href='https://sadafcarton.ir/' target='_blank'>Sadaf Carton</a> | Remote | Iran, Isfahan",
+        "subtitle": "<a href='https://sadafcarton.ir/' target='_blank'>Sadaf Carton</a> | Remote | Isfahan, Iran",
         "summary": "Sadaf Carton is a manufacturer and distributor of cardboard and paper.",
         "time": "October 2019 - October 2019",
         "labels": [
@@ -236,7 +236,7 @@
       },
       {
         "title": "Flutter Developer",
-        "subtitle": "ESTO Group | In-person | Iran, Isfahan",
+        "subtitle": "ESTO Group | In-person | Isfahan, Iran",
         "summary": "Making mobile applications using Flutter.",
         "time": "October 2018 - March 2019",
         "links": [
@@ -275,7 +275,7 @@
     "education": {
       "university_title": "University",
       "university": "Shahid Ashrafi Isfahani",
-      "description": "Computer Engineer - Software Engineer",
+      "description": "Bachelor Of Software Engineer",
       "time": "2018 - Current",
       "languages_title": "Languages",
       "languages": [
