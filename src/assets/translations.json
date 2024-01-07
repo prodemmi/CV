@@ -39,7 +39,7 @@
       {
         "title": "Senior Laravel Developer",
         "subtitle": "<a href='https://trader4.net/' target='_blank'>Trader 4</a> | Remote | London, England",
-        "summary": "Trader 4 is a platform for traders that provides services such as training and trader panel and sales of indicators, automation, new algorithm, etc.Some of activities: <br> - Using event-driven programming paradigm (Laravel job based). <br> - Creating helpdesk services such as ticket, feedback, rate and etc. <br> ",
+        "summary": "Trader 4 is a platform for traders that provides services such as training and trader panel and sales of indicators, automation, new algorithm, etc.Some of activities: <br> - Using event-driven programming paradigm (Laravel job based). <br> - Creating helpdesk services such as ticket, feedback, rate and etc. <br> - Using minIO object storage in projects. <br> - Creating and developing standard api modules. <br> - Using sentry for error tracking. <br> - Writing Unit tests and test doubles and integration tests for modules.",
         "time": "March 2023 - Jun 2023",
         "links": [
           {
@@ -58,86 +58,17 @@
             "title": "Dalan Capital",
             "href": "https://github.com/DalanCapital"
           }
-        ],
-        "labels": [
-          {
-            "icon": "assets/icons/laravel.svg",
-            "title": "Laravel",
-            "color": "#1C315E"
-          },
-          {
-            "icon": "assets/icons/mysql.png",
-            "title": "MySql",
-            "color": "#B99B6B"
-          },
-          {
-            "icon": null,
-            "title": "Microservice",
-            "color": null
-          }
         ]
       },
       {
-        "title": "Tech Lead, Senior MERN Developer",
+        "title": "Senior Software Developer",
         "subtitle": "<a href='https://fotomi.app/' target='_blank'>Fotomi</a> | Remote | Isfahan, Iran",
-        "summary": "Fotomi is a platform for improving photo quality using AI and GAN neural networks.",
+        "summary": "Fotomi is a platform for improving image quality using AI. <br> - Writing Nodejs api service. <br> - ",
         "time": "October 2023 - March 2023",
         "links": [
           {
-            "title": "Github",
-            "href": "https://github.com/FotomiCorporation"
-          }
-        ],
-        "labels": [
-          {
-            "icon": "assets/icons/mongoDB.png",
-            "title": "MongoDB",
-            "color": "#83b72b"
-          },
-          {
-            "icon": "assets/icons/expressJs.png",
-            "title": "ExpressJs",
-            "color": "#5D9C59"
-          },
-          {
-            "icon": "assets/icons/react.png",
-            "title": "ReactJs",
-            "color": "#3b4076"
-          },
-          {
-            "icon": "assets/icons/tailwind.avif",
-            "title": "Tailwind",
-            "color": "#298dc8"
-          },
-          {
-            "icon": "assets/icons/nodeJs.png",
-            "title": "NodeJs",
-            "color": "#ffb187"
-          },
-          {
-            "icon": "assets/icons/javascript.webp",
-            "title": "Javascript",
-            "color": "#000"
-          },
-          {
-            "icon": "assets/icons/python.webp",
-            "title": "Python",
-            "color": "#27374D"
-          },
-          {
-            "icon": null,
-            "title": "GANs",
-            "color": null
-          },
-          {
-            "icon": "assets/icons/docker.png",
-            "title": "Docker",
-            "color": "#3795BD"
-          },
-          {
-            "icon": null,
-            "title": "Microservice",
-            "color": null
+            "title": "Fotomi",
+            "href": "https://fotomi.app/"
           }
         ]
       },
